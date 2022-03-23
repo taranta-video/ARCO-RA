@@ -24,10 +24,17 @@
                 <!-- ======= GLTF viewer ======= -->
                 <section id="contact" class="contact">
                     <div class="container">
-
+                        <div class="section-title padding-grande" data-aos="fade-up">
+                            <h2>CHINA</h2>
+                        </div>
                         <div id="card">
                             <!-- All you need to put beautiful, interactive 3D content on your site: -->
-                            <model-viewer src="models/arco-china.gltf" alt="Año nuevo en China" shadow-intensity="1" camera-controls interaction-prompt="auto" ar magic-leap exposure="1"></model-viewer>
+                            <model-viewer src="models/arco-china.gltf" ios-src="models/asiento.usdz" alt="CHINA" shadow-intensity="1" camera-controls interaction-prompt="auto" ar magic-leap exposure=".5">
+
+                                <button slot="ar-button" class="width">
+                            <img src="images/clic.png">
+                          </button>
+                            </model-viewer>
                         </div>
                     </div>
                 </section>
