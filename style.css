@@ -66,6 +66,44 @@ body {
     overflow-x: hidden;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* CSS */
+
+.button-43 {
+    /*background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);*/
+    border-radius: .5rem;
+    box-sizing: border-box;
+    background-color: #445cfd;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: 15px;
+}
+
+.button-43:hover {
+    background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+}
+
+@media (min-width: 768px) {
+    .button-43 {
+        padding: 1rem 2rem;
+    }
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -261,7 +299,7 @@ h6 {
 
 h2.page_title {
     width: 90%;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 25px;
     font-weight: 300;
     padding: 20px 0 15px 0;
@@ -1029,7 +1067,7 @@ a.button_small {
 
 .toolbar-icon a {
     display: block;
-    width: 30%;
+    width: 25%;
     margin: 1.1%;
     padding: 1% 0;
     float: left;

@@ -19,7 +19,7 @@
 
             <div id="pages_maincontent">
 
-                <h2 class="page_title">Año nuevo en México.</h2>
+                <h2 class="page_title">Año nuevo en México</h2>
 
                 <!-- ======= GLTF viewer ======= -->
                 <section id="contact" class="contact">
@@ -27,7 +27,12 @@
 
                         <div id="card">
                             <!-- All you need to put beautiful, interactive 3D content on your site: -->
-                            <model-viewer src="models/arco-mexico.gltf" camera-controls></model-viewer>
+                            <model-viewer src="models/arco-mexico.gltf" ios-src="models/asiento.usdz" poster="images/mexico.jpg" alt="CHINA" environment-image="images/afuera.hdr" shadow-intensity="1" camera-controls interaction-prompt="auto" ar magic-leap>
+
+                                <button slot="ar-button" class="button-43">
+                            <img src="images/clic2.png">
+                          </button>
+                            </model-viewer>
                         </div>
                     </div>
                 </section>
